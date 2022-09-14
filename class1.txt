@@ -1,0 +1,3 @@
+#list 
+mylist=["sum","sub","div"]
+print(mylist)
