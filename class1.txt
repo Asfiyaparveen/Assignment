@@ -1,3 +1,6 @@
 #list 
 mylist=["sum","sub","div"]
 print(mylist)
+#update
+mylist[2]=("multiply")
+print(mylist)
