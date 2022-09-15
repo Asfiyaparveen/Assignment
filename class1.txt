@@ -1,6 +1,44 @@
-#list 
-mylist=["sum","sub","div"]
-print(mylist)
+**Assignment** **1**
+
+#list
+tolist=["sum","sub","divide"]
+print(tolist)
+
 #update
-mylist[2]=("multiply")
-print(mylist)
+tolist[2]="multiply"
+print(tolist) 
+
+#append
+tolist.append("factor")
+print(tolist)
+
+#insert
+tolist.insert(3,"divide")
+print(tolist)
+
+#delete
+del tolist[3]
+print(tolist) 
+
+#indexing
+print(tolist[3])
+
+
+#Tuple
+tuple1=("data",456.8,"datatype",235,)
+print(tuple1)
+
+#indexing
+print(tuple1[1]) 
+
+
+#dictionary
+dict={"Name" : ["Zara","Laura"],
+      "Age" : [9,8],
+      "Class" : "Second"} 
+print(dict["Name"]) 
+print(dict)
+
+#update
+dict["class"]="third"
+print(dict["class"])
